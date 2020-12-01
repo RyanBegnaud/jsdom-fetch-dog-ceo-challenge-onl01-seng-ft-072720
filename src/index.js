@@ -23,7 +23,7 @@ function allBreeds(){
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   fetch(breedUrl)
   .then(resp => resp.json())
-  .then(json => console.log(json.message.name))
+  .then(json => console.log(json.message))
 }
 
 function addList(dogName) {
