@@ -22,9 +22,12 @@ function allBreeds(){
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   fetch(breedUrl)
   .then(resp => resp.json())
-  .then(json =>)
+  .then(json => 
+    json.message.forEach(dog => addList(dog))
+  )
 }
 
 function addList(dogName) {
   let dogs = document.getElementById("dog-breeds")
+  
 }
