@@ -24,3 +24,5 @@ function allBreeds(){
   .then(resp => resp.json())
   .then(json =>)
 }
+
+function addList(dogName)
