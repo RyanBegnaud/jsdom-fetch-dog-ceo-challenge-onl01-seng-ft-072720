@@ -34,4 +34,4 @@ function addList(dog) {
   dogs.appendChild(ul)
 }
 
-let all = document.querySelector("dog-breeds").childNodes;
+let all = document.getElementById("dog-breeds").childNodes;
