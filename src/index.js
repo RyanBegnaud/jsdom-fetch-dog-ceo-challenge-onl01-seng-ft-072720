@@ -21,4 +21,5 @@ function addImage(dogPicUrl) {
 function allBreeds(){
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   fetch(breedUrl)
+  .then(resp => resp.json())
 }
