@@ -41,6 +41,7 @@ document.getElementById("dog-breeds").addEventListener("click", function(e) {
 let letter =  document.getElementById("breed-dropdown").value
 document.getElementById("breed-dropdown").addEventListener("change", function(e) {
   let ele = document.getElementById("dog-breeds").childNodes
+  console.log(ele)
   if (letter.value === "a") {
     
   }
