@@ -1,14 +1,19 @@
-const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
-document.addEventListener("DOMContentLoaded", function(){
-  fetch(imgUrl)
-  .then(resp => resp.json())
-  .then(json => newImg())
-})
+document.addEventListener('DOMContentLoaded', function () {
+  loadImages();
+});
 
-function newImg(image){
-  let container = document.getElementById("dog-image-container")
-  let img = document.createElement('img')
-  container.append(img)
-  
-  
+function loadImages() {
+  const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
+  fetch(imgUrl)
+    .then(res=> res.json())
+    .then(results => {
+      results.message.forEach(image => addImage(image))
+    });
+}
+
+function addImage(dogPicUrl) {
+  let container = document.querySelector('#dog-image-container');
+  let newImageEl = document.createElement('img');
+  newImageEl.src = dogPicUrl;
+  container.appendChild(newImageEl);
 }
