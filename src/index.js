@@ -7,5 +7,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 function newImg(){
   let img = document.createElement('img')
+  body.append(img)
   
 }
