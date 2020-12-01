@@ -6,7 +6,7 @@ function loadImages() {
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
   fetch(imgUrl)
     .then(res=> res.json())
-    .then(neder => {
+    .then(json => {
       neder.message.forEach(image => addImage(image))
     });
 }
