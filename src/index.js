@@ -7,7 +7,7 @@ function loadImages() {
   fetch(imgUrl)
     .then(res=> res.json())
     .then(json => {
-      json.forEach(image => addImage(image))
+      json.value.forEach(image => addImage(image))
     });
 }
 
