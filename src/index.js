@@ -34,8 +34,6 @@ function addList(dog) {
   dogs.appendChild(ul)
 }
 
-function updateColor(event) {
-  event.target.style.color = 'palevioletred';
-}
-
-document.getElementById("dog-breeds").addEventListener("click", updateColor);
+document.getElementById("dog-breeds").addEventListener("click", function(e) {
+  e.target.style.color = "orange"
+} );
