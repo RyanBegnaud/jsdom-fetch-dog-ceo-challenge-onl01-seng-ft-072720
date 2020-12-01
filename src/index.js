@@ -24,7 +24,6 @@ function allBreeds(){
   fetch(breedUrl)
   .then(resp => resp.json())
   .then(json => addList(json))
-  )
 }
 
 function addList(dogName) {
