@@ -26,5 +26,5 @@ function allBreeds(){
 }
 
 function addList(dogName) {
-  
+  let dogs = document.getElementById("dog-breeds")
 }
