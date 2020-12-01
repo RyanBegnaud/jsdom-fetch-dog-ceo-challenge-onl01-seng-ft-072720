@@ -32,5 +32,4 @@ function addList(dogName) {
   let ul = document.createElement("ul")
   ul.innerHTML = dogName
   dogs.appendChild(ul)
-  
 }
