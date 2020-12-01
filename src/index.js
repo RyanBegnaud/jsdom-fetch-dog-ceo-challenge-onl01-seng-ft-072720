@@ -26,7 +26,7 @@ function allBreeds(){
   .then(json => addList(Object.keys(json.message)));
 }
 
-function addList(dogName) {
+function addList(dog) {
   dog
   let dogs = document.getElementById("dog-breeds")
   let ul = document.createElement("ul")
