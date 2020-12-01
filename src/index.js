@@ -33,3 +33,5 @@ function addList(dog) {
   ul.innerHTML = dog
   dogs.appendChild(ul)
 }
+
+let all = document.querySelector("dog-breeds > ul")
