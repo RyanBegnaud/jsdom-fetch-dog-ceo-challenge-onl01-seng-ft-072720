@@ -17,3 +17,4 @@ function addImage(dogPicUrl) {
   newImageEl.src = dogPicUrl;
   container.appendChild(newImageEl);
 }
+
