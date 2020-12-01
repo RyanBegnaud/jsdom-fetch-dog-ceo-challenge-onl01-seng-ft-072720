@@ -37,3 +37,5 @@ function addList(dog) {
 function updateColor(event) {
   event.target.style.color = 'palevioletred';
 }
+
+document.getElementById("dog-breeds")
