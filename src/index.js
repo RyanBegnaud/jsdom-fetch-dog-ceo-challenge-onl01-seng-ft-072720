@@ -29,6 +29,6 @@ function allBreeds(){
 function addList(dogName) {
   let dogs = document.getElementById("dog-breeds")
   let ul = document.createElement("ul")
-  ul.innerHTML = dogName
+  ul.innerHTML = dogName.message
   dogs.appendChild(ul)
 }
