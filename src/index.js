@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
   .then(json => newImg())
 })
 
-function newImg(image)){
+function newImg(image){
   let container = document.getElementById("dog-image-container")
   let img = document.createElement('img')
   container.append(img)
