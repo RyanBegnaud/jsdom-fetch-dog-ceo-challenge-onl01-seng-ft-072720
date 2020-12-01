@@ -12,6 +12,7 @@ function loadImages() {
 }
 
 function addImage(dogPicUrl) {
+  console.log(dogPicUrl)
   let container = document.querySelector('#dog-image-container');
   let newImageEl = document.createElement('img');
   newImageEl.src = dogPicUrl;
