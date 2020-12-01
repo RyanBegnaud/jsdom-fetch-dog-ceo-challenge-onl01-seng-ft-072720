@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
 function newImg(){
   let container = document.getElementById("dog-image-container")
   let img = document.createElement('img')
+  container.append(img)
   
   
 }
