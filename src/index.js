@@ -4,3 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
   .then(resp => resp.json())
   .then(json => )
 })
+
+function newImg(){
+  document.createElement('img')
+}
