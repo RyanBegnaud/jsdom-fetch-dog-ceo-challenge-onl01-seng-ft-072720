@@ -23,13 +23,12 @@ function allBreeds(){
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   fetch(breedUrl)
   .then(resp => resp.json())
-  .then(json => addList(json.message))
+  .then(json => console.log(Object.keys(results.message));
 }
 
 function addList(dogName) {
   let dogs = document.getElementById("dog-breeds")
   let ul = document.createElement("ul")
-  console.log(dogName)
   ul.innerHTML = dogName
   dogs.appendChild(ul)
 }
