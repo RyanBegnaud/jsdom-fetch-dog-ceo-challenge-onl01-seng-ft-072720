@@ -35,4 +35,6 @@ function addList(dog) {
 }
 
 let all = document.getElementById("dog-breeds").childNodes;
-all.addEventListener("click")
+all.addEventListener("click", function(e){
+  console.log(e.target)
+})
