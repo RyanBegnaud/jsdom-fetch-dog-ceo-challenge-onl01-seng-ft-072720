@@ -38,4 +38,4 @@ function updateColor(event) {
   event.target.style.color = 'palevioletred';
 }
 
-document.getElementById("dog-breeds")
+document.getElementById("dog-breeds").addEventListener("click", updateColor);
