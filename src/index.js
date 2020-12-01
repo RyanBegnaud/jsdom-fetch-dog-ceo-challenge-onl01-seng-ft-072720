@@ -34,7 +34,6 @@ function addList(dog) {
   dogs.appendChild(ul)
 }
 
-let all = document.getElementById("dog-breeds").childNodes;
-all.addEventListener("click", function(e){
-  console.log(e.target)
-})
+function updateColor(event) {
+  event.target.style.color = 'palevioletred';
+}
