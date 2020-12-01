@@ -28,7 +28,6 @@ function allBreeds(){
 
 function addList(dog) {
   let dogs = document.getElementById("dog-breeds")
-  dog.forEach
   let ul = document.createElement("ul")
   ul.innerHTML = dogName
   dogs.appendChild(ul)
