@@ -39,4 +39,4 @@ document.getElementById("dog-breeds").addEventListener("click", function(e) {
 } );
 
 
-let letter =  document.getElementById("breed-dropdown").value
+let letter =  document.getElementById("breed-dropdown").addEventListener("")
