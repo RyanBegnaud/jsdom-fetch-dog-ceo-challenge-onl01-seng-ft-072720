@@ -18,3 +18,6 @@ function addImage(dogPicUrl) {
   container.appendChild(newImageEl);
 }
 
+function allBreeds(){
+  fetch()
+}
