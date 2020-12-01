@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   loadImages();
+  allBreeds();
 });
 
 function loadImages() {
