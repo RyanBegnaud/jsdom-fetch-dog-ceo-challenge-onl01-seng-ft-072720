@@ -37,3 +37,6 @@ function addList(dog) {
 document.getElementById("dog-breeds").addEventListener("click", function(e) {
   e.target.style.color = "red"
 } );
+
+
+let letter =  document.getElementById("breed-dropdown").value
